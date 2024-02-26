@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="icon" type="image/png" href="favi.png">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-container">
+        <h1>Weather App</h1>
+        <div class="location-input">
+            <label for="location">Enter Location:</label>
+            <input type="text" id="location" placeholder="City, Country">
+            <button onclick="getWeather()">Get Weather</button>
+        </div>
+        <div id="weather-info" class="weather-info">
+            <!-- Weather data will be displayed here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+<footer>
+    <div>
+        <p class="footer__copy">&#169; 2024 Abdul Azees. All right reserved</p>
+
+    </div>
+</footer>
+</html>
