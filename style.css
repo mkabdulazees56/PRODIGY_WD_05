@@ -47,6 +47,6 @@ button:hover {
 }
 
 .weather-info {
-    font-size: 20px; /* Increased font size */
-    margin-top: 20px; /* Added margin for separation */
+    font-size: 20px;
+    margin-top: 20px; 
 }
